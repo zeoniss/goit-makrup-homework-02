@@ -1,0 +1,23 @@
+body{
+  background-color: #E5E5E5;
+  color: var(--primary-text-color);
+}
+p {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.button-list {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button-list:hover,
+.button-list:focus {
+    color: white;
+    background-color: var(--accent-color);
+}

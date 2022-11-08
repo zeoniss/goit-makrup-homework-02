@@ -1,0 +1,81 @@
+:root{
+  --primary-text-color:#757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3
+;
+  --primary-white-color: #ffffff;
+}
+
+body{
+  color: var(--primary-text-color);
+  background-color: #E5E5E5;
+
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--title-text-color);
+}
+
+.list{
+  list-style: none;
+  text-decoration: none;
+}
+         /* Header */
+.web-label{
+  color: var(--accent-color);
+}
+.studio-label{
+  color: var(--title-text-color);
+}
+.site-nav .link{
+  color: var(--title-text-color);
+}
+.site-nav .link:hover{
+  color: var(--accent-color);
+}
+.site-nav .link.current{
+  color: var(--accent-color);
+}
+.contacts .link{
+  color: var(--title-text-color)
+}
+.contacts .link:hover{
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+.section {
+  background-color: #2F303A;
+  width: 1600px;
+  height: 600px;
+}
+.button{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  padding: 10px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+.button.primary{
+   color: var(--primary-white-color );
+  background-color: var(--accent-color);
+border-color: transparent; 
+}
+/* Footer */
+.footer{
+  background-color: #2F303A;
+  width: 1600px;
+  height: 252px;
+  
+}
+.label-footer{
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.address .street{
+  color: var(--primary-white-color);
+}
+.address .contact{
+  color: rgba(255, 255, 255, 0.6);
+}
