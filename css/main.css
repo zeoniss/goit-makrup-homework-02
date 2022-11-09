@@ -38,7 +38,8 @@ h1,h2,h3,h4,h5,h6{
 .contacts .link{
   color: var(--title-text-color)
 }
-.contacts .link:hover{
+.contacts .link:hover,
+.contacts .link:focus{
   color: var(--accent-color);
 }
 /* Hero */
@@ -73,9 +74,14 @@ border-color: transparent;
   color: var(--primary-white-color);
   text-decoration: none;
 }
-.address .street{
+.address .street {
   color: var(--primary-white-color);
 }
+.address .street :hover,
+.address .street :focus{
+  color: var(--accent-color);
+}
+
 .address .contact{
   color: rgba(255, 255, 255, 0.6);
 }
