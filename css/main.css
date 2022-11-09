@@ -1,7 +1,8 @@
 :root{
   --primary-text-color:#757575;
   --title-text-color: #212121;
-  --accent-color: #2196F3
+  --accent-color: #2196F3;
+  --rgba-color:  rgba(255,255,255,0.6)
 ;
   --primary-white-color: #ffffff;
 }
@@ -74,14 +75,20 @@ border-color: transparent;
   color: var(--primary-white-color);
   text-decoration: none;
 }
-.address .street {
-  color: var(--primary-white-color);
+
+
+.address .street{
+  color: rgba(255,255,255,1);
 }
-.address .street :hover,
-.address .street :focus{
+.address .street:hover,
+.address .street:focus
+{
   color: var(--accent-color);
 }
-
-.address .contact{
-  color: rgba(255, 255, 255, 0.6);
+.address .connect{
+  color: var(--rgba-color);
+}
+.address .connect:hover,
+.address .connect:focus{
+  color: var(--accent-color);
 }

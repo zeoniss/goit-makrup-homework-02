@@ -19,5 +19,20 @@ p {
 .button-list:hover,
 .button-list:focus {
     color: white;
-    background-color: var(--accent-color);
+    background-color: var(--primary-text-color);
+}
+.address .street{
+  color: rgba(255,255,255,1);
+}
+.address .street:hover,
+.address .street:focus
+{
+  color: var(--accent-color);
+}
+.address .connect{
+  color: var(--rgba-color);
+}
+.address .connect:hover,
+.address .connect:focus{
+  color: var(--accent-color);
 }
