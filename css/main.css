@@ -10,6 +10,7 @@ body {
   color: var(--primary-text-color);
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 h1,
@@ -44,7 +45,7 @@ h6 {
   text-decoration: none;
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
 }
 .site-nav .link:hover {
@@ -57,7 +58,7 @@ h6 {
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
 }
 .contacts .link:hover,
@@ -83,23 +84,23 @@ h6 {
   line-height: 1.17;
   text-align: center;
 }
-.paragraph-title {
+.features-list .title {
   font-weight: 700;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
 }
-.paragraph {
+.features-list .text {
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.71;
 }
-.teammate {
+.team-list .teammate {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.job-title {
+.team-list .job-title {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -134,8 +135,11 @@ h6 {
   text-decoration: none;
   font-family: Raleway, sans-serif;
 }
-.address {
+.address.text {
   font-style: normal;
+  font-weight: 400;
+  /* font-size: 14px; */
+  line-height: 1.71;
 }
 
 .address .street {

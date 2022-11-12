@@ -31,12 +31,12 @@ body {
   background-color: var(--accent-color);
 }
 /* List-title */
-.title-list {
+.works .title-list {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.paragraph-list {
+.works .paragraph-list {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
